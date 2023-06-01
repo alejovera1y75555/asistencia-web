@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de Bienvenida</title>
-    <link rel="stylesheet" href="../sis-asistencia/estilos/estilos.css">
+    <link rel="stylesheet" href="../asist-web/asistencia-web/estilo/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
@@ -28,6 +28,16 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <!-- insertar logo -->
+            <img src="../sis-asistencia/imagenes/logo.png" alt="">
+            <a href="">Inicio</a>
+            <a href="">Ingresar</a>
+            <a href="">Registrar</a>
+            <a href="">Contacto</a>
+        </nav>
+    </header>
     <h1>BIENVENIDOS, REGISTRA TU ASISTENCIA</h1>
     <h2 id="fecha"></h2>
     <!--<div class="logo">
