@@ -15,11 +15,11 @@
 </head>
 
 <body>
-
+    <background-image src="../img/fondo.jpg" alt="">
     <h1>BIENVENIDOS, REGISTRA TU ASISTENCIA</h1>
     <h2 id="fecha"></h2>
     <div class="container">
-        <a class="acceso" href="">Ingresar al sistema</a>
+        <a class="acceso" href="/asist-web/vista/login/login.php">Ingresar al sistema</a>
         <div class="logo">
             <img src="../img/logo.png" alt="">
         </div>
