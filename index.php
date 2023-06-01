@@ -19,9 +19,9 @@
     <h1>BIENVENIDOS, REGISTRA TU ASISTENCIA</h1>
     <h2 id="fecha"></h2>
     <div class="container">
-        <a class="acceso" href="/asist-web/vista/login/login.php">Ingresar al sistema</a>
+        <a class="acceso" href="../asistencia-web/vista/login/login.php">Ingresar al sistema</a>
         <div class="logo">
-            <img src="../img/logo.png" alt="">
+            <img src="../asistencia-web/img/logo.png" alt="">
         </div>
         <p class="cedula">Ingrese su Cédula</p>
         <form action="">
