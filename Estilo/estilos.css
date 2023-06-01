@@ -1,64 +1,88 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Nunito Sans', sans-serif;
-    background : rgb(223, 247, 225);
-}   
-h1{
+    background: rgb(191, 238, 195);
+}
+
+h1 {
     text-align: center;
     padding: 20px;
     font-size: 40px;
     color: rgb(56, 56, 56);
 }
-#fecha{
+
+#fecha {
     text-align: center;
     color: rgb(148, 148, 148);
     font-weight: normal;
     font-size: 30px;
 }
-.container{
+
+.container {
     width: 700px;
     background: white;
     padding: 20px;
     margin: auto;
     margin-top: 20px;
+    border-radius: 20px;
 }
-.acceso{
-    color:rgb(0, 153, 255)
+
+.acceso {
+    color: rgb(0, 153, 255)
 }
-.cedula{
-    text-align: center;
+
+.cedula {
+    text-align: left;
     font-size: 25px;
     margin-bottom: 20px;
 }
-input{
+
+input {
     width: 100%;
     padding: 40px;
     outline: none;
 }
-.botones{
+
+.botones {
     display: flex;
     margin-top: 20px;
 
 }
-.entrada{
+
+.entrada {
     background: rgb(0, 252, 210);
     width: 100%;
     Padding: 25px 35px;
     color: white;
     text-align: center;
-    text-decoration: none;   
+    text-decoration: none;
 
 }
-.salida{
+
+.salida {
     background: rgb(255, 0, 0);
     width: 100%;
     Padding: 25px 35px;
     color: white;
     text-align: center;
-    text-decoration: none;   
+    text-decoration: none;
+
+}
+
+.logo img {
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
